@@ -7,6 +7,6 @@ angular.module('hcmApp', ['ui.router'])
         $urlRouterProvider.otherwise('/');
         $stateProvider.state('login', {
             url: '/',
-            templateUrl: ''
+            templateUrl: './app/login/login.tpl.html'
         })
     });
